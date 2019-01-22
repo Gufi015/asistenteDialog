@@ -1,7 +1,41 @@
 <Alloy>
 	<Window class="container">
 		<View class="main">
-			<Label>Hey</Label>
+			<View id="subContainer">
+					<View>
+						<View>
+					 		<!-- <ImageView id="logoAce" platform="ios" top="60"> </ImageView>
+					 		<ImageView id="logoAce" platform="android" top="60"> </ImageView> -->
+					 	</View>
+						<View id="contenedorLoginInterno">
+							<View id="contenedorTitle">
+								<Label id="titleLogin" text="LOGIN"></Label>
+							</View>
+							<View class="viewContactInfo" top="18dip">
+								<View class="viewDatosContacto">
+									<!-- <ImageView class="contactImageView" platform="ios"></ImageView>
+									<ImageView class="contactImageView" platform="android"></ImageView> -->
+								</View>
+								<View width="2dip" backgroundColor="#A0A0A0"></View>
+								<View width="Ti.UI.FILL" height="Ti.UI.FILL" backgroundColor="white">
+									<TextField id="inputUser" hintText="Ususario" left="5dip" ></TextField>
+								</View>
+							</View>
+							<View class="viewContactInfo" top="10dip" >
+								<View class="viewDatosContacto">
+									<!-- <ImageView class="contactImageView" platform="ios"></ImageView>
+									<ImageView class="contactImageView" platform="android"></ImageView> -->
+								</View>
+								<View width="2dip" backgroundColor="#A0A0A0"></View>
+								<View width="Ti.UI.FILL" height="Ti.UI.FILL" backgroundColor="white">
+									<TextField id="inputPass" passwordMask="true" hintText="Contraseña" left="5dip"></TextField>
+								</View>
+							</View>
+							<Button id="btnLogin" onClick="login" title="Ingresar"></Button>
+						</View><!-- fin contenedor interno -->
+						<!-- <ImageView id="logoIConfianza" bottom="70dip"></ImageView> -->
+					</View>
+				</View><!-- fin subContainer -->
 		</View>
 	</Window>
 </Alloy>

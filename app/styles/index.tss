@@ -2,14 +2,430 @@
 	backgroundColor:"white"
 }
 
-"Label": {
-	width: Ti.UI.SIZE,
-	height: Ti.UI.SIZE,
-	color: "#000"
-}
-
 ".main":{
 	width: Ti.UI.FILL,
 	height: Ti.UI.FILL,
 	backgroundColor: 'lightgray'
+}
+
+"#subContainer":{
+	backgroundColor:'#01C0D6'
+}
+
+"#header":{
+	width:Ti.UI.FILL,
+	height:'100dip'
+}
+
+"#logoAce[formFactor=handheld]":{
+	width:"150dip",
+	height:"20dip"
+}
+
+"#logoAce[formFactor=tablet]":{
+	width:"225dip",
+	height:"40dip"
+
+}
+
+"#logoIConfianza[formFactor=handheld]":{
+	width:"100dip",
+	height:"20dip"
+}
+
+"#logoIConfianza[formFactor=tablet]":{
+	width:"100dip",
+	height:"20dip"
+}
+
+
+"#contenedorLoginInterno[formFactor=handheld]":{
+	layout:'vertical',
+	height:Ti.UI.SIZE,
+	left:'50dip',
+	right:'50dip'
+}
+
+"#contenedorLoginInterno[formFactor=tablet]":{
+	layout:'vertical',
+	width:"450dip",
+	height:Ti.UI.SIZE
+}
+
+"#contenedorTitle":{
+	left:0,
+	height:'25dp',
+	width:Ti.UI.FILL,
+	backgroundColor: 'purple'
+}
+
+"#titleLogin[formFactor=handheld]":{
+	height:"50dip",
+	color:'white',
+	font:{
+		fontSize:"16dip",
+
+	}
+}
+"#titleLogin[formFactor=tablet]":{
+	height:"76dip",
+	color:'white',
+	font:{
+		fontSize:"36dip",
+	}
+}
+"TextField":{
+	backgroundColor: "white",
+	color: "#000",
+	clearButtonMode: Titanium.UI.INPUT_BUTTONMODE_ALWAYS,
+	font:{
+		fontSize:"16dp",
+
+	},
+	width: "96%"
+}
+
+"#inputUser":{
+	width: Ti.UI.FILL,
+	heigth: '40dip',
+	color:"black",
+	font:{
+		fontSize: '14dip',
+
+	}
+}
+"#inputUser[platform=android]":{
+	heigth: '40dip'
+}
+"#inputPass":{
+	width:Ti.UI.FILL,
+	heigth: '40dip',
+	color:"black",
+	font:{
+		fontSize: '14dip',
+
+	}
+}
+"#inputPass[platform=android]":{
+	heigth: '40dip'
+}
+"Button[formFactor=handheld]":{
+	color:"white",
+	width:Ti.UI.FILL,
+	height:"50dip",
+	left:0,
+	top:18,
+	font:{
+
+		fontSize:"16dip"
+	}
+}
+"Button[formFactor=tablet]":{
+	color:"white",
+	width:Ti.UI.FILL,
+	height:"60dip",
+	left:0,
+	top:25,
+	font:{
+
+		fontSize:"26dip"
+	}
+}
+
+"#progressView":{
+	backgroundColor:"gray"
+}
+
+"#activityI":{
+	color:"white"
+}
+/*
+".LoginTextfield":{
+	height: Alloy.Globals.LoginTextFieldHeight
+}
+*/
+
+
+"#tabLogin[formFactor=handheld]":{
+	bottom:"60dip"
+}
+"#tabLogin[formFactor=tablet]":{
+	bottom:"80dip"
+}
+
+"#tabTitle[formFactor=handheld]":{
+	width: Titanium.UI.FILL,
+	height: "50dip",
+	textAlign: Titanium.UI.TEXT_ALIGNMENT_CENTER
+}
+"#tabTitle[formFactor=tablet]":{
+	width: Titanium.UI.FILL,
+	height: "80dip",
+	textAlign: Titanium.UI.TEXT_ALIGNMENT_CENTER
+}
+
+"#lblTabTitle[formFactor=handheld]":{
+	top: "18dip",
+	color: "white",
+	font: {
+
+		fontSize : "16dip"
+	}
+}
+"#lblTabTitle[formFactor=tablet]":{
+	top: "30dip",
+	color: "white",
+	font: {
+
+		fontSize : "36dip"
+	}
+}
+
+".lblViewContent[formFactor=handheld]":{
+	left: "15dip",
+	font:{
+		fontSize: "14dip",
+
+	},
+	color: "'gray'",
+	right: "15dip"
+}
+
+".lblViewContent[formFactor=tablet]":{
+	left: "44dip",
+	font:{
+		fontSize: "20dip",
+
+	},
+	color: "gray",
+	right: "44dip"
+}
+
+".lblViewTitle[formFactor=handheld]":{
+	left: "15dip",
+	top: "20dip",
+	//bottom: "10dip",
+	font:{
+
+		fontSize: "30dip"
+	},
+	color: Alloy.Globals.Colors.azulP
+}
+".lblViewTitle[formFactor=tablet]":{
+	left: "44dip",
+	top: "30dip",
+	//bottom: "10dip",
+	font:{
+
+		fontSize: "46dip"
+	},
+	color: Alloy.Globals.Colors.azulP
+}
+
+".tabView":{
+	backgroundColor : "white",
+	top : "0",
+	layout : "vertical"
+}
+
+"·textAreaContainer[formFactor=handheld]":{
+	height:"80dip"
+}
+"·textAreaContainer[formFactor=tablet]":{
+	height:"170dip"
+}
+
+"TextArea[formFactor=handheld]":{
+	backgroundColor:"white",
+	color: "#000",
+
+	width: "96%"
+}
+"TextArea[formFactor=tablet]":{
+	backgroundColor:"white",
+	color: "#000",
+
+	width: "96%",
+	font:{
+		fontSize:"22dip"
+	}
+}
+
+"#tabContacto[formFactor=handheld]":{
+	top: "50dip",
+
+	bottom: "60dip"
+}
+"#tabContacto[formFactor=tablet]":{
+	top: "80dip",
+
+	bottom: "80dip"
+}
+"#tabDirectorio[formFactor=handheld]":{
+	top : "50dip",
+	backgroundColor : "#f4f4f4",
+	bottom : "60dip"
+}
+"#tabDirectorio[formFactor=tablet]":{
+	top : "80dip",
+	backgroundColor : "#f4f4f4",
+	bottom : "80dip"
+}
+"#tabAcercaDe[formFactor=handheld]":{
+	top : "50dip",
+	backgroundColor: "white",
+	bottom : "60dip"
+}
+"#tabAcercaDe[formFactor=tablet]":{
+	top : "80dip",
+	backgroundColor: "white",
+	bottom : "80dip"
+}
+"#tabFianzas[formFactor=handheld]":{
+	top : "50dip",
+	backgroundColor: "white",
+	bottom : "60dip"
+}
+"#tabFianzas[formFactor=tablet]":{
+	top : "80dip",
+	backgroundColor: "white",
+	bottom : "80dip"
+}
+
+".viewContactInfo[formFactor=handheld]":{
+	layout : "horizontal",
+	height : "50dip",
+	width: Ti.UI.FILL,
+	top : "10dip"
+}
+".viewContactInfo[formFactor=tablet]":{
+	layout : "horizontal",
+	height : "72dip",
+	width: Ti.UI.FILL,
+	top : "10dip"
+}
+
+"#containerContacto[formFactor=handheld]":{
+	layout:"vertical",
+	height:Ti.UI.SIZE,
+	left:"50dip",
+	right:"50dip"
+}
+
+"#containerContacto[formFactor=tablet]":{
+	layout:"vertical",
+	width:"450dip",
+	height:Ti.UI.SIZE
+}
+
+".lblMoreInfo[formFactor=handheld]":{
+	left: "15dip",
+	font:{
+		fontSize: "14dip",
+
+	},
+
+	right: "15dip"
+}
+".lblMoreInfo[formFactor=tablet]":{
+	left: "44dip",
+	font:{
+		fontSize: "20dip",
+
+	},
+
+	right: "44dip"
+}
+
+
+
+".viewDatosContacto[formFactor=handheld]":{
+	width : "50dip",
+	backgroundColor : "white"
+}
+".viewDatosContacto[formFactor=tablet]":{
+	width : "72dip",
+	backgroundColor : "white"
+}
+
+".contactImageView":{
+	height:"99%",
+	width:"99%"
+}
+
+"#containerFianzas[formFactor=handheld]":{
+	top:"5dip"
+}
+"#containerFianzas[formFactor=tablet]":{
+	top:"22dip"
+}
+
+".containerBtnsFianzas[formFactor=handheld]":{
+	layout:"horizontal",
+	height:"80dip",
+	width: Titanium.UI.FILL
+}
+".containerBtnsFianzas[formFactor=tablet]":{
+	layout:"horizontal",
+	height:"136dip",
+	width: Titanium.UI.FILL,
+	top:"22dip"
+}
+
+"#directorioSucursales[formFactor=handheld]":{
+	font:{
+		fontSize: "25dip"
+	}
+}
+
+"#tabGroup[formFactor=handheld]":{
+	bottom: "0dip",
+	width: Ti.UI.FILL,
+	height:"60dip",
+	layout:"horizontal",
+
+}
+"#tabGroup[formFactor=tablet]":{
+	bottom: "0dip",
+	width: Ti.UI.FILL,
+	height:"80dip",
+	layout:"horizontal",
+
+}
+
+"#scrollToTopButton[formFactor=handheld]":{
+	 width:"41dip",
+	 height:"41dip",
+	 bottom:"70dip",
+	 right:0
+}
+"#scrollToTopButton[formFactor=tablet]":{
+	 width:"41dip",
+	 height:"41dip",
+	 bottom:"85dip",
+	 right:0
+}
+
+
+"#mapView[formFactor=handheld]":{
+	top:"32dip",
+	bottom: "44dip"
+}
+"#mapView[formFactor=tablet]":{
+	top:"60dip",
+	bottom:"130dip"
+}
+
+"#lblHorario[formFactor=handheld]":{
+	top:"5dip"
+}
+"#lblHorario[formFactor=tablet]":{
+	top:"10dip"
+}
+
+"#lblDias[formFactor=handheld]":{
+	top:"5dip"
+}
+"#lblDias[formFactor=tablet]":{
+	top:"10dip"
 }

@@ -1,0 +1,8 @@
+<Alloy>
+	<Window class="container">
+		<View class="main">
+			<Label>Demo chat</Label>
+		</View>
+	</Window>
+
+</Alloy>
