@@ -4,8 +4,8 @@
 			<View id="subContainer">
 					<View>
 						<View>
-					 		<!-- <ImageView id="logoAce" platform="ios" top="60"> </ImageView>
-					 		<ImageView id="logoAce" platform="android" top="60"> </ImageView> -->
+					 		<ImageView id="logoChubb" platform="ios" > </ImageView>
+					 		<ImageView id="logoChubb" platform="android" > </ImageView>
 					 	</View>
 						<View id="contenedorLoginInterno">
 							<View id="contenedorTitle">
@@ -34,6 +34,7 @@
 							<Button id="btnLogin" onClick="login" title="Ingresar"></Button>
 						</View><!-- fin contenedor interno -->
 						<!-- <ImageView id="logoIConfianza" bottom="70dip"></ImageView> -->
+
 					</View>
 				</View><!-- fin subContainer -->
 		</View>

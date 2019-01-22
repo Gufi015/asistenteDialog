@@ -109,6 +109,9 @@
 "#inputPass[platform=android]":{
 	heigth: '40dip'
 }
+"#btnLogin": {
+	backgroundColor: 'purple'
+}
 "Button[formFactor=handheld]":{
 	color:"white",
 	width:Ti.UI.FILL,
@@ -351,6 +354,18 @@
 ".contactImageView":{
 	height:"99%",
 	width:"99%"
+}
+"#logoChubb[platform=android]":{
+    image:'/images/ico_chubb.png',
+	height:"25%",
+	width:"60%",
+	top:30
+}
+"#logoChubb[platform=ios]":{
+    image:'ico_chubb.png',
+    height:"25%",
+	width:"60%",
+	top:30
 }
 
 "#containerFianzas[formFactor=handheld]":{

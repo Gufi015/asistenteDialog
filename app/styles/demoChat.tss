@@ -7,3 +7,7 @@
   width: Ti.UI.FILL,
   height: Ti.UI.FILL
 }
+"#lblAlert":{
+  backgroundColor: 'black'
+}
+
